@@ -1,0 +1,70 @@
+{
+  "_from": "zx-count@^0.3.7",
+  "_id": "zx-count@0.3.7",
+  "_inBundle": false,
+  "_integrity": "sha512-qUDgNbqrLhAbW9O7i9lSMTxAx8tghzBq9cKSYdNvH41AgN2qeA+JHbg5o7R3k3+4s7L5RxyurTmNGW/4SxogKQ==",
+  "_location": "/zx-count",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "zx-count@^0.3.7",
+    "name": "zx-count",
+    "escapedName": "zx-count",
+    "rawSpec": "^0.3.7",
+    "saveSpec": null,
+    "fetchSpec": "^0.3.7"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://mirrors.huaweicloud.com/repository/npm/zx-count/-/zx-count-0.3.7.tgz",
+  "_shasum": "19eb585d6d1a653944adbef493b61b8a19bde6d7",
+  "_spec": "zx-count@^0.3.7",
+  "_where": "/Users/zhuyilin/Documents/VipProject/vip-peixun-web/Manage",
+  "author": {
+    "name": "chuzhixin",
+    "email": "1204505056@qq.com"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/chuzhixin/zx-count/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "deprecated": false,
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-eslint": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.0.5",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "homepage": "http://chu1204505056.gitee.io/vue-admin-beautiful",
+  "main": "dist/zx-count.umd.min.js",
+  "name": "zx-count",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuzhixin/zx-count.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib src/components/export.js",
+    "lint": "vue-cli-service lint",
+    "push": "start ./deploy.sh",
+    "serve": "vue-cli-service serve",
+    "update": "ncu -u&&cnpm i"
+  },
+  "version": "0.3.7"
+}
